@@ -1,9 +1,9 @@
 #include "shell.h"
 /**
- * _launch - Launch the process to be excetute.
- * @args: List of arguments passed from parsing.
- * Return: Always 1..
- */
+  * _launch - Launch the process to be excetute.
+  * @args: List of arguments passed from parsing.
+  * Return: Always 1..
+  */
 int _launch(char **args)
 {
 	int status, pid;

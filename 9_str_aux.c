@@ -60,12 +60,12 @@ int _strcmp(char *s1, char *s2)
 
 
 /**
- * _strcpy - Print the same string.
- * @dest: array;
- * @src: string;.
- *
- * Return: The string copiedi.
- */
+  * _strcpy - Print the same string.
+  * @dest: array;
+  * @src: string;.
+  *
+  * Return: The string copiedi.
+  */
 char *_strcpy(char *dest, char *src)
 {
 	int j, i = 0;
@@ -85,12 +85,12 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * _strncmp - String comaprison.
- * @s1: string 1
- * @s2: string 2
- * @n: number of bytes
- * Return: 0 if equal diff if different.
- */
+  * _strncmp - String comaprison.
+  * @s1: string 1
+  * @s2: string 2
+  * @n: number of bytes
+  * Return: 0 if equal diff if different.
+  */
 int _strncmp(const char *s1, const char *s2, int n)
 {
 	unsigned char c1 = '\0';
