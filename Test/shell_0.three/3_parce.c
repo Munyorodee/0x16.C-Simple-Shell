@@ -5,7 +5,7 @@
   * @line: Line wrote in console.
   * Return: An array with all words splited.
   */
-char **_split_line(char *line);
+char **_split_line(char *line)
 {
 	int bufsize = 64, position = 0;
 	char **tokens;
